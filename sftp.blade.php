@@ -30,8 +30,8 @@
                 <div class="form-group">
                     <label class="control-label">@lang('CONEXÃO PARA ANDROID')</label>
                     <div>
-                        <input type="text" class="form-control" readonly value="Servidor:{{ $node->fqdn }}" />
-                        <input type="text" class="form-control" readonly value="Porta:{{ $node->daemonSFTP }}" />
+                        <input type="text" class="form-control" readonly value="Servidor = {{ $node->fqdn }}" />
+                        <input type="text" class="form-control" readonly value="Porta = {{ $node->daemonSFTP }}" />
                         </div>
                        
                      <div>
